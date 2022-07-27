@@ -12,7 +12,7 @@ async function bootstrap() {
       enableImplicitConversion: true
     }
   }));
-  app.enableCors({ origin: 'http://localhost:3000' });
+  app.enableCors({ origin: 'http://timepill.zzhe.fun' });
   await app.listen(3456);
 }
 bootstrap();
